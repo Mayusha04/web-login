@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+            height: 210px;
+            width: 250px;
+            background-color: blueviolet;
+            padding: 10px;
+            border-radius: 10px;
+            display: inline-block;
+            text-align: center;
+        }
+        body {
+            background-image:url("bc.jpg") ;
+        }
+    </style>
+</head>
+<body>
+
+    <form>
+        <div>
+            <p>Full Name</p>
+            <input type="text" name="full name" placeholder="enter atleast 3 characters">
+        </div>
+        <div>
+            <p>E-mail*</p>
+            <input type="e-mail" name="e-mail" placeholder="only enter gmail address" required>
+        </div>
+        <div>
+            <p>Password</p>
+            <input type="password" name="password">
+        </div>
+        <div>
+            <p>Gender</p>
+            <input type="radio" name="male">Male
+            <input type="radio" name="female">Female
+            <input type="radio" name="other">other
+        </div>
+        <div>
+            <p>Security Questions</p>
+            <select name="security questions">
+                <option value="pet name">what is your nick name?</option>
+                <option value="colour">what is your favourite colour?</option>
+            </select>
+        </div>
+        <div>
+            <textarea name="" cols="10" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="checkbox" name="terms and conditions">I agree to all terms and conditions
+        </div>
+        <div>
+            <input type="submit" name="sign up" value="signup">
+        </div>
+    </form>
+</body>
+</html>
